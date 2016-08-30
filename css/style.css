@@ -39,6 +39,14 @@
    BASE STYLE
    ========================================================================== */
 
+ <style>
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100';
+</style>
+
+
+
+
 *, *:after, *:before{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html{ margin: 0; padding: 0;
 width: 100%;
@@ -50,7 +58,7 @@ body{
     font-size: 1em;
     line-height: 1.6;
 	font-weight:400;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Raleway', Arial, sans-serif;
 }
 
 a{
@@ -70,9 +78,20 @@ a:hover{
 	color: #666666;
 }
 
-h1, h2{
-	font-family: 'Montserrat', sans-serif;
+h1{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-size: 40px;
 }
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+
+}
+
 audio,
 canvas,
 img,
@@ -129,9 +148,7 @@ img{
 .darken{
 	background: #1d1d1d;
 	color: #ffffff;
-}
-.darken a{
-	color: #a9a9a9;
+
 }
 .darken a:hover{
 	color: #ffffff;
@@ -175,8 +192,9 @@ img{
 .section-title h3{
 	position: relative;
 	text-align: center;
-	color: #999999;
-	font-weight: 400;
+	color: #FFFFFF;
+	font-weight: 700;
+	letter-spacing: 1px;
 	font-size: 1em;
 }
 
@@ -1394,6 +1412,18 @@ img{
 /* ==========================================================================
    CONTACT
    ========================================================================== */
+.contactButton {
+	background-color:#1D1D1D;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding:10px 31px;
+}
 
 #contact{
 	background: transparent url("../img/background/contact.jpg") no-repeat center center fixed; 
@@ -1517,7 +1547,7 @@ img{
    ========================================================================== */
 
 #footer{
-	background: #1d1d1d;
+	background: #282828;
 	color: white;
 	text-align: center;
 }
@@ -1787,6 +1817,7 @@ img{
 #four-oh-four .content-block .content-text h2 {
 	margin-top: 0;
 	font-size: 24px;
+	font-weight: 100;
 	text-transform: uppercase;
 }
 #four-oh-four .content-block .content-text .button{
